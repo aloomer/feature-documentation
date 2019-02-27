@@ -29,13 +29,21 @@
                   span
             ul.category-nav-list
               li
-                a.active.category-links(href="#using-legwork-category") Sending an Appointment Request
+                a.active.category-links(href="#training-video") Training Video
+              li
+                a.category-links(href="#using-legwork-category") Sending an Appointment Request
               li
                 a.category-links(href="#patient-communications-category") Viewing ASAP/Short Notice List
               li
                 a.category-links(href="#todo-lists-category") Driver Support
           .categories
             ul
+              li#training-video.target
+                .category-title
+                  h2 Training Video
+                ul.faq-list
+                  .resp-container
+                    iframe.resp-iframe(src='https://player.vimeo.com/video/320375530', width='640', height='360', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
               li#using-legwork-category.target
                 .category-title 
                   h2 Sending an Appointment Request
